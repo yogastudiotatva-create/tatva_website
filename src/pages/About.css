@@ -1,0 +1,220 @@
+.about-hero {
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+  color: white;
+  padding: var(--spacing-2xl) var(--spacing-md);
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.about-hero .lead {
+  font-size: var(--font-size-xl);
+  opacity: 0.95;
+}
+
+.about-content {
+  background-color: var(--primary);
+}
+
+.about-intro {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-2xl);
+  text-align: center;
+}
+
+.about-intro h2 {
+  font-size: var(--font-size-2xl);
+  color: var(--secondary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.about-intro p {
+  font-size: var(--font-size-lg);
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: var(--spacing-md);
+}
+
+/* Values Section */
+.values-section {
+  margin: var(--spacing-2xl) 0;
+}
+
+.values-section h2 {
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  color: var(--secondary);
+  margin-bottom: var(--spacing-xl);
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.value-card {
+  background: white;
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 2px 12px var(--shadow);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-8px);
+}
+
+.value-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+  color: white;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+
+.value-card h3 {
+  font-size: var(--font-size-xl);
+  color: var(--secondary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.value-card p {
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Mission Section */
+.mission-section {
+  background: white;
+  padding: var(--spacing-2xl);
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 2px 12px var(--shadow);
+  margin: var(--spacing-2xl) 0;
+}
+
+.mission-section h2 {
+  font-size: var(--font-size-2xl);
+  color: var(--secondary);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.mission-content p {
+  font-size: var(--font-size-lg);
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: var(--spacing-md);
+}
+
+/* Instructors Section */
+.instructors-section {
+  margin: var(--spacing-2xl) 0;
+}
+
+.instructors-section h2 {
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  color: var(--secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.section-intro {
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto var(--spacing-xl);
+  line-height: 1.7;
+}
+
+.instructor-note {
+  background: #f9f9f9;
+  border-left: 4px solid var(--accent);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  margin-top: var(--spacing-lg);
+}
+
+.instructor-note strong {
+  color: var(--secondary);
+}
+
+.instructor-template {
+  background: white;
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  margin-top: var(--spacing-md);
+  border: 2px dashed var(--accent);
+}
+
+.instructor-template h4 {
+  color: var(--secondary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.instructor-template em {
+  color: var(--accent);
+}
+
+/* Location Info */
+.location-info {
+  background: white;
+  padding: var(--spacing-2xl);
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 2px 12px var(--shadow);
+  margin: var(--spacing-2xl) 0;
+}
+
+.location-info h2 {
+  font-size: var(--font-size-2xl);
+  color: var(--secondary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.location-info p {
+  font-size: var(--font-size-lg);
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: var(--spacing-md);
+}
+
+/* CTA Section */
+.about-cta {
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+  color: white;
+  text-align: center;
+  padding: var(--spacing-2xl) var(--spacing-md);
+  margin-top: var(--spacing-2xl);
+}
+
+.about-cta h2 {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.about-cta p {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-xl);
+  opacity: 0.95;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: var(--font-size-2xl);
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+}

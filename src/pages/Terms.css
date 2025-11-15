@@ -1,0 +1,123 @@
+.terms-hero {
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--accent) 100%);
+  color: white;
+  padding: var(--spacing-2xl) var(--spacing-md);
+  text-align: center;
+}
+
+.terms-hero h1 {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.terms-hero .lead {
+  font-size: var(--font-size-lg);
+  opacity: 0.9;
+}
+
+/* Terms Content */
+.terms-content {
+  background-color: var(--primary);
+}
+
+.terms-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: var(--spacing-2xl);
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 2px 12px var(--shadow);
+}
+
+/* Admin Notice */
+.admin-notice {
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+  border-radius: var(--border-radius);
+}
+
+.admin-notice h3 {
+  color: #856404;
+  margin-bottom: var(--spacing-sm);
+  font-size: var(--font-size-lg);
+}
+
+.admin-notice p {
+  color: #856404;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Terms Sections */
+.terms-section {
+  margin-bottom: var(--spacing-2xl);
+  padding-bottom: var(--spacing-lg);
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.terms-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.terms-section h2 {
+  font-size: var(--font-size-xl);
+  color: var(--secondary);
+  margin-bottom: var(--spacing-md);
+  font-weight: 600;
+}
+
+.terms-section p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: var(--spacing-md);
+  font-size: 1rem;
+}
+
+.terms-section ul {
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-xl);
+}
+
+.terms-section li {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: var(--spacing-xs);
+}
+
+.terms-section strong {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+/* Highlighted text */
+.terms-section em {
+  background: var(--primary);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-style: normal;
+  color: var(--secondary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .terms-container {
+    padding: var(--spacing-lg);
+  }
+
+  .terms-hero h1 {
+    font-size: var(--font-size-2xl);
+  }
+
+  .terms-section h2 {
+    font-size: var(--font-size-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .terms-container {
+    padding: var(--spacing-md);
+  }
+}

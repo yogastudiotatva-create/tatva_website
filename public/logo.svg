@@ -1,0 +1,32 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#274543"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="100" cy="100" r="75" fill="#fffbed"/>
+  
+  <!-- Lotus Petals -->
+  <g fill="#97a89a">
+    <!-- Center petal -->
+    <ellipse cx="100" cy="70" rx="15" ry="35" />
+    
+    <!-- Top left petal -->
+    <ellipse cx="75" cy="80" rx="15" ry="30" transform="rotate(-30 75 80)" />
+    
+    <!-- Top right petal -->
+    <ellipse cx="125" cy="80" rx="15" ry="30" transform="rotate(30 125 80)" />
+    
+    <!-- Left petal -->
+    <ellipse cx="65" cy="100" rx="15" ry="25" transform="rotate(-60 65 100)" />
+    
+    <!-- Right petal -->
+    <ellipse cx="135" cy="100" rx="15" ry="25" transform="rotate(60 135 100)" />
+  </g>
+  
+  <!-- Center Dot -->
+  <circle cx="100" cy="100" r="8" fill="#274543"/>
+  
+  <!-- Text -->
+  <text x="100" y="155" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#274543" text-anchor="middle">TATVA</text>
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="14" fill="#97a89a" text-anchor="middle">YOGA STUDIO</text>
+</svg>
