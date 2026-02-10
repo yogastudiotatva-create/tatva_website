@@ -7,5 +7,6 @@ export default defineConfig({
   base: '/tatva_website/',
   build: {
     outDir: 'dist',
+    sourcemap: true,
   },
 })
